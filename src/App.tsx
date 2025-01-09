@@ -1,5 +1,6 @@
-import { Text, View } from "react-native"
+import { SafeAreaView, Text, View } from "react-native"
 import styled from "styled-components/native";
+import Login from "./modules/login";
 
 const TextNew = styled.Text`
   height: 100;
@@ -7,10 +8,9 @@ const TextNew = styled.Text`
 
 const App = () => {
   return (
-    <View>
-      <Text>Teste</Text>
-      <TextNew>Styled components</TextNew>
-    </View>
+    <SafeAreaView>
+      <Login/>
+    </SafeAreaView>
   )
 }
 
