@@ -7,7 +7,7 @@ export const ContainerLogin = styled.View`
   align-items: center;
 `
 
-export const ImageBG = styled.ImageBackground`
+export const SpotImage = styled.ImageBackground`
   width: 100%;
   height: 100%;
 `

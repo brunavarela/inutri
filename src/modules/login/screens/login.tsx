@@ -1,14 +1,15 @@
 import { Image, Text, TextInput, View } from "react-native"
-import { ContainerLogin, ImageBG } from "../styles/login.style";
+import { ContainerLogin, SpotImage } from "../styles/login.style";
 
 const Login = () => {
   return (
     <View>
       <ContainerLogin>
-        <ImageBG resizeMode="" source={require('../../../assets/images/background.png')}>
-          <Text>Login</Text>
+        <SpotImage source={require('../../../assets/images/background.png')}>
+          <SpotImage source={require('../../../assets/images/logo.png')} />
+          <Text>Ajudando a cuidar de você</Text>
           <TextInput/>
-        </ImageBG>
+        </SpotImage>
       </ContainerLogin>
     </View>
   )
