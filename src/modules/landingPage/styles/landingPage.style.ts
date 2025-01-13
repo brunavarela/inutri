@@ -22,6 +22,6 @@ export const ImageBG = styled.ImageBackground`
 `
 
 export const SpotImage = styled.ImageBackground`
-  width: 116px;
-  height: 43px;
+  width: 166.4px;
+  height: 59.8px;
 `
