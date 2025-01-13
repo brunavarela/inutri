@@ -1,15 +1,10 @@
-import { SafeAreaView, Text, View } from "react-native"
-import styled from "styled-components/native";
-import Login from "./modules/login";
-
-const TextNew = styled.Text`
-  height: 100;
-`
+import { SafeAreaView } from "react-native"
+import LandingPage from "./modules/landingPage/screens/LandingPage";
 
 const App = () => {
   return (
     <SafeAreaView>
-      <Login/>
+      <LandingPage/>
     </SafeAreaView>
   )
 }
