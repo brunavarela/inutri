@@ -6,8 +6,10 @@ const Login = () => {
     <View>
       <ContainerLogin>
         <SpotImage source={require('../../../assets/images/background.png')}>
-          <SpotImage source={require('../../../assets/images/logo.png')} />
-          <Text>Ajudando a cuidar de você</Text>
+          <View>
+            <SpotImage source={require('../../../assets/images/logo.png')} />
+            <Text>Ajudando a cuidar de você</Text>
+          </View>
           <TextInput/>
         </SpotImage>
       </ContainerLogin>
